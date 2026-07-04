@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Layan Bin Dayel | AI Product Manager &amp; Data Scientist</title>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600;700;800&family=Tajawal:wght@400;500;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/dist/tabler-icons.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/devicon@latest/devicon.min.css">
+<style>
+html,body{margin:0;padding:0;background:#010001;min-height:100vh}
+.pf-root{--bg:#010001;--bg-soft:#133336;--card:rgba(54,125,138,0.10);--card-border:rgba(54,125,138,0.28);--text:#ffffff;--text-2:rgba(255,255,255,0.72);--text-3:rgba(255,255,255,0.5);--a1:#367D8A;--a2:#285F6B;--a3:#133336;--chip-bg:rgba(54,125,138,0.14);--chip-text:#79c6d2;--font-head:'Fraunces',serif;font-family:'Inter',sans-serif;background:var(--bg);color:var(--text);position:relative;min-height:100vh;transition:background .3s ease,color .3s ease}
+.pf-root[data-theme="light"]{--bg:#ffffff;--bg-soft:#ffffff;--card:rgba(40,95,107,0.06);--card-border:rgba(13,36,38,0.14);--text:#0d2426;--text-2:rgba(13,36,38,0.72);--text-3:rgba(13,36,38,0.5);--chip-bg:rgba(40,95,107,0.10);--chip-text:#285F6B}
+.pf-root[dir="rtl"], .pf-root[dir="rtl"] .pf-h2, .pf-root[dir="rtl"] .pf-hero-title, .pf-root[dir="rtl"] .pf-logo, .pf-root[dir="rtl"] .pf-proj-title, .pf-root[dir="rtl"] .pf-trophy-title{font-family:'Tajawal',sans-serif}
+.pf-root .sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0)}
+.pf-root *{box-sizing:border-box}
+.pf-grad-text{background:linear-gradient(90deg,var(--a1),var(--a2),var(--a3));-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
+.pf-root[data-theme="light"] .pf-grad-text{background:linear-gradient(90deg,var(--a1),var(--a2),#0d2426);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
+.pf-eyebrow{font-size:12px;font-weight:600;text-transform:uppercase;letter-spacing:.25em;margin-bottom:12px}
+.pf-root[dir="rtl"] .pf-eyebrow{letter-spacing:0}
+.pf-nav{position:sticky;top:0;z-index:50;display:flex;align-items:center;justify-content:space-between;padding:16px 20px;background:rgba(1,0,1,0.6);backdrop-filter:blur(14px);border-bottom:1px solid var(--card-border)}
+.pf-root[data-theme="light"] .pf-nav{background:rgba(255,255,255,0.7)}
+.pf-logo{font-family:var(--font-head);font-weight:600;font-size:17px;background:none;border:none;color:var(--text);cursor:pointer;padding:0}
+.pf-nav-right{display:flex;align-items:center;gap:8px}
+.pf-icon-btn{width:36px;height:36px;border-radius:10px;border:1px solid var(--card-border);background:var(--card);color:var(--text);display:flex;align-items:center;justify-content:center;cursor:pointer;font-size:16px}
+.pf-lang-btn{font-size:12px;font-weight:700}
+.pf-menu-panel{display:none;flex-direction:column;gap:4px;padding:12px 20px 18px;background:var(--bg-soft);border-bottom:1px solid var(--card-border)}
+.pf-menu-panel.open{display:flex}
+.pf-menu-link{background:none;border:none;text-align:left;padding:10px 4px;font-size:14px;color:var(--text-2);cursor:pointer;border-radius:8px}
+.pf-root[dir="rtl"] .pf-menu-link{text-align:right}
+.pf-menu-link:hover{color:var(--text);background:var(--card)}
+.pf-btn{display:inline-flex;align-items:center;gap:8px;padding:11px 20px;border-radius:12px;font-size:14px;font-weight:600;cursor:pointer;text-decoration:none;border:1px solid var(--card-border);white-space:nowrap}
+.pf-btn-ghost{background:var(--card);color:var(--text)}
+.pf-btn-grad{background:linear-gradient(90deg,var(--a1),var(--a2),var(--a3));color:#fff;border:none}
+.pf-hero{position:relative;min-height:520px;display:flex;align-items:center;justify-content:center;overflow:hidden;border-bottom:1px solid var(--card-border)}
+.pf-hero canvas{position:absolute;inset:0;width:100%;height:100%}
+.pf-hero-overlay{position:absolute;inset:0;background:linear-gradient(180deg,rgba(1,0,1,0.55),rgba(1,0,1,0.4),rgba(1,0,1,0.8))}
+.pf-root[data-theme="light"] .pf-hero-overlay{background:linear-gradient(180deg,rgba(255,255,255,0.55),rgba(255,255,255,0.35),rgba(255,255,255,0.82))}
+.pf-hero-content{position:relative;z-index:2;text-align:center;padding:0 24px;max-width:620px;margin:0 auto}
+.pf-hero-name{font-size:13px;color:var(--text-3);margin-bottom:14px;letter-spacing:.05em}
+.pf-hero-title{font-family:var(--font-head);font-size:34px;font-weight:600;line-height:1.15;margin-bottom:16px}
+.pf-hero-sub{font-size:15px;color:var(--text-2);line-height:1.6;margin-bottom:24px}
+.pf-section{padding:64px 20px;border-bottom:1px solid var(--card-border);max-width:1000px;margin:0 auto}
+.pf-section-head{text-align:center;margin-bottom:36px}
+.pf-h2{font-family:var(--font-head);font-size:28px;font-weight:600}
+.pf-card{background:var(--card);border:1px solid var(--card-border);border-radius:20px;backdrop-filter:blur(10px)}
+.pf-bio p{font-size:14.5px;line-height:1.8;color:var(--text-2);margin-bottom:18px}
+.pf-bio b{color:var(--chip-text);font-weight:600}
+.pf-grid{display:grid;gap:16px}
+.pf-grid-2{grid-template-columns:repeat(auto-fit,minmax(260px,1fr))}
+.pf-proj-media{height:100px;border-radius:20px 20px 0 0;display:flex;align-items:center;justify-content:center;font-size:30px;color:#fff}
+.pf-proj-body{padding:20px}
+.pf-proj-title{font-family:var(--font-head);font-size:17px;font-weight:600;margin-bottom:8px}
+.pf-proj-desc{font-size:13px;color:var(--text-2);line-height:1.6;margin-bottom:14px}
+.pf-tags{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:14px}
+.pf-tag{font-size:11px;padding:4px 10px;border-radius:20px;background:var(--chip-bg);color:var(--chip-text);border:1px solid var(--card-border)}
+.pf-badge{display:inline-flex;align-items:center;gap:6px;font-size:11px;font-weight:700;padding:5px 10px;border-radius:8px;background:rgba(250,204,21,0.12);color:#facc15;margin-bottom:12px}
+.pf-links{display:flex;flex-wrap:wrap;gap:8px}
+.pf-link-sm{display:inline-flex;align-items:center;gap:6px;font-size:12.5px;font-weight:600;padding:8px 12px;border-radius:10px;border:1px solid var(--card-border);background:var(--card);color:var(--text);text-decoration:none}
+.pf-cert-card{padding:20px;display:flex;gap:14px;align-items:flex-start}
+.pf-cert-icon{width:40px;height:40px;border-radius:12px;background:linear-gradient(135deg,var(--a1),var(--a3));display:flex;align-items:center;justify-content:center;color:#fff;font-size:18px;flex-shrink:0}
+.pf-cert-title{font-size:14px;font-weight:700;margin-bottom:2px}
+.pf-cert-issuer{font-size:12px;color:var(--text-3)}
+.pf-trophy-card{padding:20px}
+.pf-trophy-top{display:flex;align-items:center;gap:12px;margin-bottom:10px}
+.pf-trophy-icon{width:38px;height:38px;border-radius:50%;background:var(--chip-bg);color:#facc15;display:flex;align-items:center;justify-content:center;font-size:18px;flex-shrink:0}
+.pf-trophy-title{font-family:var(--font-head);font-size:15.5px;font-weight:600}
+.pf-trophy-desc{font-size:13px;color:var(--text-2);line-height:1.6;margin-bottom:12px}
+.pf-skill-group{padding:20px}
+.pf-skill-label{font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.12em;color:var(--text-3);margin-bottom:14px}
+.pf-root[dir="rtl"] .pf-skill-label{letter-spacing:0;text-transform:none}
+.pf-skill-icon-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(88px,1fr));gap:10px}
+.pf-skill-icon-card{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10px;padding:16px 8px;border-radius:16px;background:var(--chip-bg);border:1px solid var(--card-border);text-align:center;min-height:96px}
+.pf-skill-icon-card i{font-size:36px;line-height:1}
+.pf-skill-icon-card i.pf-icon-accent{color:var(--a1)}
+.pf-skill-icon-card span{font-size:11px;color:var(--text-2);line-height:1.3;font-weight:500}
+.pf-contact-card{padding:32px 24px;text-align:center}
+.pf-contact-row{display:flex;flex-wrap:wrap;justify-content:center;gap:12px;margin-top:20px}
+.pf-footer{padding:32px 20px;text-align:center}
+.pf-footer-links{display:flex;flex-wrap:wrap;justify-content:center;gap:14px;margin:16px 0;font-size:12.5px}
+.pf-footer-links button{background:none;border:none;color:var(--text-2);cursor:pointer;font-size:12.5px}
+.pf-footer-links button:hover{color:var(--text)}
+.pf-copyright{font-size:11.5px;color:var(--text-3)}
+@media(min-width:720px){.pf-nav-links-desktop{display:flex!important}.pf-hero-title{font-size:48px}}
+</style>
+</head>
+<body>
+<div class="pf-root" data-theme="dark" dir="ltr" id="pfRoot">
+<h2 class="sr-only">Personal portfolio for Layan Bin Dayel with an animated neural network hero, a language switch between English and Arabic, about, resume, projects, courses, achievements with certificate links, skills, and contact sections, plus a dark/light theme toggle.</h2>
+
+<nav class="pf-nav">
+<button class="pf-logo" onclick="pfScroll('pf-home')">Layan Bin Dayel</button>
+<div class="pf-nav-right">
+<button class="pf-icon-btn pf-lang-btn" id="pfLangBtn" aria-label="Switch language" onclick="pfToggleLang()">ع</button>
+<button class="pf-icon-btn" id="pfThemeBtn" aria-label="Toggle theme" onclick="pfToggleTheme()"><i class="ti ti-moon" id="pfThemeIcon" aria-hidden="true"></i></button>
+<button class="pf-icon-btn" aria-label="Open menu" onclick="pfToggleMenu()"><i class="ti ti-menu-2" id="pfMenuIcon" aria-hidden="true"></i></button>
+</div>
+</nav>
+<div class="pf-menu-panel" id="pfMenuPanel">
+<button class="pf-menu-link" data-i18n="nav_about" onclick="pfScroll('pf-about')">About</button>
+<button class="pf-menu-link" data-i18n="nav_resume" onclick="pfScroll('pf-resume')">Resume</button>
+<button class="pf-menu-link" data-i18n="nav_projects" onclick="pfScroll('pf-projects')">Projects</button>
+<button class="pf-menu-link" data-i18n="nav_courses" onclick="pfScroll('pf-courses')">Courses</button>
+<button class="pf-menu-link" data-i18n="nav_trophies" onclick="pfScroll('pf-trophies')">Trophies</button>
+<button class="pf-menu-link" data-i18n="nav_skills" onclick="pfScroll('pf-skills')">Skills</button>
+<button class="pf-menu-link" data-i18n="nav_contact" onclick="pfScroll('pf-contact')">Contact</button>
+</div>
+
+<section class="pf-hero" id="pf-home">
+<canvas id="pfCanvas"></canvas>
+<div class="pf-hero-overlay"></div>
+<div class="pf-hero-content">
+<p class="pf-hero-name" data-i18n="hero_name">Layan Bin Dayel</p>
+<h1 class="pf-hero-title pf-grad-text" data-i18n="hero_title">AI Product Manager &amp; Data Scientist</h1>
+<p class="pf-hero-sub" data-i18n="hero_sub">Computer Information Systems student specializing in AI &amp; Data Science at Prince Sultan University — building AI-powered products, leading a data science community, and turning coursework into real systems.</p>
+<a class="pf-btn pf-btn-ghost" href="https://www.linkedin.com/in/layan-bindayel/" target="_blank" rel="noopener noreferrer">
+<i class="ti ti-brand-linkedin" aria-hidden="true"></i> <span data-i18n="hero_cta">Message on LinkedIn</span>
+</a>
+</div>
+</section>
+
+<section class="pf-section" id="pf-about">
+<div class="pf-section-head">
+<p class="pf-eyebrow pf-grad-text" data-i18n="about_eyebrow">About me</p>
+<h2 class="pf-h2" data-i18n="about_heading">Layan Hesham Bin Dayel</h2>
+</div>
+<div class="pf-bio" style="max-width:600px;margin:0 auto">
+<p data-i18n-html="about_p1">I'm <b>Layan Hesham Bin Dayel</b>, a <b>Computer Information Systems</b> student on the <b>AI &amp; Data Science track</b> at <b>Prince Sultan University</b>, currently maintaining a <b>3.82/4.00</b> cumulative GPA (3.90/4.00 in my specialization) with three semesters remaining before my expected graduation in July 2028 — including four consecutive semesters on the <b>Dean's List</b> so far.</p>
+<p data-i18n-html="about_p2">As an <b>AI Product Management Associate</b> at <b>HKB Tech</b>, I collaborate with cross-functional teams to build AI-powered products across healthcare, education, and emerging technology — from market and user research to requirements definition, agile roadmap planning, and stakeholder communication.</p>
+<p data-i18n-html="about_p3">As <b>President of the Data Science Club</b> at PSU, I lead the <b>AI in Robotics Bootcamp</b> and foster a community of data science enthusiasts through workshops, events, and cross-club initiatives.</p>
+<p data-i18n-html="about_p4">Through programs like <b>Building LLMs from Scratch</b> (SDAIA) and <b>Building Chatbots from Scratch</b> (RAG), plus academic projects spanning Java, SQL, and systems design, I've built a foundation across <b>LLMs</b>, <b>retrieval-augmented generation</b>, <b>predictive analytics</b>, and <b>AI product strategy</b>.</p>
+</div>
+</section>
+
+<section class="pf-section" id="pf-resume">
+<div class="pf-card pf-contact-card" style="max-width:560px;margin:0 auto">
+<p class="pf-eyebrow pf-grad-text" style="text-align:center" data-i18n="resume_eyebrow">Resume</p>
+<h2 class="pf-h2" style="margin-bottom:10px" data-i18n="resume_heading">Resume / CV</h2>
+<p style="font-size:14px;color:var(--text-2);margin-bottom:20px" data-i18n="resume_sub">View or download my latest resume.</p>
+<div class="pf-contact-row">
+<a class="pf-btn pf-btn-ghost" href="https://drive.google.com/file/d/1zPfI-DPzQQg6WT2tPkRyyt8D21RTUnDt/view?usp=sharing" target="_blank" rel="noopener noreferrer"><i class="ti ti-eye" aria-hidden="true"></i> <span data-i18n="resume_view">View resume</span></a>
+<a class="pf-btn pf-btn-grad" href="https://drive.google.com/uc?export=download&id=1zPfI-DPzQQg6WT2tPkRyyt8D21RTUnDt" target="_blank" rel="noopener noreferrer"><i class="ti ti-download" aria-hidden="true"></i> <span data-i18n="resume_download">Download resume</span></a>
+</div>
+</div>
+</section>
+
+<section class="pf-section" id="pf-projects">
+<div class="pf-section-head">
+<p class="pf-eyebrow pf-grad-text" data-i18n="projects_eyebrow">Projects</p>
+<h2 class="pf-h2" data-i18n="projects_heading">Selected projects</h2>
+</div>
+<div class="pf-grid pf-grid-2">
+
+<div class="pf-card">
+<div class="pf-proj-media" style="background:linear-gradient(135deg,#367D8A,#133336)"><i class="ti ti-car" aria-hidden="true"></i></div>
+<div class="pf-proj-body">
+<span class="pf-badge"><i class="ti ti-trophy" aria-hidden="true"></i> <span data-i18n="proj1_badge">3rd place — PwC Empowerthon</span></span>
+<div class="pf-proj-title" data-i18n="proj1_title">F1 race-strategy &amp; telemetry simulator</div>
+<div class="pf-proj-desc" data-i18n="proj1_desc">Co-developed an AI-powered Formula 1 race-strategy and telemetry simulation platform, awarded 3rd place in the Smart Tourism track for innovation in smart technology.</div>
+<div class="pf-tags"><span class="pf-tag">AI</span><span class="pf-tag">Simulation</span><span class="pf-tag">Product strategy</span></div>
+<div class="pf-links">
+<a class="pf-link-sm" href="https://www.linkedin.com/in/layan-bindayel/" target="_blank" rel="noopener noreferrer"><i class="ti ti-brand-linkedin" aria-hidden="true"></i><span data-i18n="link_linkedin">View on LinkedIn</span></a>
+</div>
+</div>
+</div>
+
+<div class="pf-card">
+<div class="pf-proj-media" style="background:linear-gradient(135deg,#285F6B,#367D8A)"><i class="ti ti-briefcase" aria-hidden="true"></i></div>
+<div class="pf-proj-body">
+<span class="pf-badge" style="background:rgba(54,125,138,0.16);color:#79c6d2"><i class="ti ti-rocket" aria-hidden="true"></i> <span data-i18n="proj2_badge">MVP bootcamp</span></span>
+<div class="pf-proj-title" data-i18n="proj2_title">Freelance platform for Saudi women</div>
+<div class="pf-proj-desc" data-i18n="proj2_desc">Independently developed a freelance platform empowering Saudi women, applying AI-driven market research, Lean Canvas methodology, and MVP prototyping — a dedicated space for professional expression and freelance income.</div>
+<div class="pf-tags"><span class="pf-tag">Lean canvas</span><span class="pf-tag">MVP</span><span class="pf-tag">Market research</span></div>
+<div class="pf-links">
+<a class="pf-link-sm" href="https://www.linkedin.com/in/layan-bindayel/" target="_blank" rel="noopener noreferrer"><i class="ti ti-brand-linkedin" aria-hidden="true"></i><span data-i18n="link_linkedin">View on LinkedIn</span></a>
+</div>
+</div>
+</div>
+
+<div class="pf-card">
+<div class="pf-proj-media" style="background:linear-gradient(135deg,#133336,#285F6B)"><i class="ti ti-heartbeat" aria-hidden="true"></i></div>
+<div class="pf-proj-body">
+<div class="pf-proj-title" data-i18n="proj3_title">CareTime — smart medical assistance</div>
+<div class="pf-proj-desc" data-i18n="proj3_desc">Led end-to-end system analysis using structured SDLC methodology — requirements elicitation, UML use-case and activity diagrams, and a phased agile backlog for a smart medical assistance platform.</div>
+<div class="pf-tags"><span class="pf-tag">UML</span><span class="pf-tag">Agile</span><span class="pf-tag">SDLC</span><span class="pf-tag">IS231</span></div>
+</div>
+</div>
+
+<div class="pf-card">
+<div class="pf-proj-media" style="background:linear-gradient(135deg,#367D8A,#285F6B)"><i class="ti ti-sort-ascending" aria-hidden="true"></i></div>
+<div class="pf-proj-body">
+<div class="pf-proj-title" data-i18n="proj4_title">Student course registration analysis</div>
+<div class="pf-proj-desc" data-i18n="proj4_desc">Engineered a custom singly linked-list to process registration records, implemented a Demand Score algorithm, and compared four sorting algorithms for runtime and performance trade-offs.</div>
+<div class="pf-tags"><span class="pf-tag">Java</span><span class="pf-tag">Linked lists</span><span class="pf-tag">Sorting algorithms</span><span class="pf-tag">CS210</span></div>
+</div>
+</div>
+
+<div class="pf-card">
+<div class="pf-proj-media" style="background:linear-gradient(135deg,#4a99a6,#285F6B)"><i class="ti ti-building-bank" aria-hidden="true"></i></div>
+<div class="pf-proj-body">
+<div class="pf-proj-title" data-i18n="proj5_title">Museum management system</div>
+<div class="pf-proj-desc" data-i18n="proj5_desc">Designed a relational database schema from an ERD blueprint and wrote complex SQL queries for artifact inventory and inter-museum loan coordination, ensuring referential integrity across institutions.</div>
+<div class="pf-tags"><span class="pf-tag">SQL</span><span class="pf-tag">ERD design</span><span class="pf-tag">Relational schema</span><span class="pf-tag">IS241</span></div>
+</div>
+</div>
+
+<div class="pf-card">
+<div class="pf-proj-media" style="background:linear-gradient(135deg,#285F6B,#010001)"><i class="ti ti-lock" aria-hidden="true"></i></div>
+<div class="pf-proj-body">
+<div class="pf-proj-title" data-i18n="proj6_title">RSA cryptosystem</div>
+<div class="pf-proj-desc" data-i18n="proj6_desc">Implemented RSA public-key cryptography in Java covering modular arithmetic, key generation, encryption, and decryption — a focused application of discrete mathematics.</div>
+<div class="pf-tags"><span class="pf-tag">Java</span><span class="pf-tag">Number theory</span><span class="pf-tag">Cryptography</span><span class="pf-tag">CS285</span></div>
+</div>
+</div>
+
+</div>
+</section>
+
+<section class="pf-section" id="pf-courses">
+<div class="pf-section-head">
+<p class="pf-eyebrow pf-grad-text" data-i18n="courses_eyebrow">Learning journey</p>
+<h2 class="pf-h2" data-i18n="courses_heading">Courses &amp; programs</h2>
+</div>
+<div class="pf-grid pf-grid-2">
+<div class="pf-card pf-cert-card"><div class="pf-cert-icon"><i class="ti ti-certificate" aria-hidden="true"></i></div><div><div class="pf-cert-title" data-i18n="c1_title">Building LLMs from scratch</div><div class="pf-cert-issuer">SDAIA · Mar 2026</div></div></div>
+<div class="pf-card pf-cert-card"><div class="pf-cert-icon"><i class="ti ti-certificate" aria-hidden="true"></i></div><div><div class="pf-cert-title" data-i18n="c2_title">Introduction to MongoDB</div><div class="pf-cert-issuer">MongoDB University · Apr 2026</div></div></div>
+<div class="pf-card pf-cert-card"><div class="pf-cert-icon"><i class="ti ti-certificate" aria-hidden="true"></i></div><div><div class="pf-cert-title" data-i18n="c3_title">Building chatbots from scratch</div><div class="pf-cert-issuer">LLM Minds Club · Sep 2025</div></div></div>
+<div class="pf-card pf-cert-card"><div class="pf-cert-icon"><i class="ti ti-certificate" aria-hidden="true"></i></div><div><div class="pf-cert-title" data-i18n="c4_title">Launch your MVP in 3 days</div><div class="pf-cert-issuer">PSU Data Science Club × AIDA Lab · Aug 2025</div></div></div>
+<div class="pf-card pf-cert-card"><div class="pf-cert-icon"><i class="ti ti-certificate" aria-hidden="true"></i></div><div><div class="pf-cert-title" data-i18n="c5_title">Data, security &amp; privacy</div><div class="pf-cert-issuer">UC Irvine · Coursera · Nov 2025</div></div></div>
+<div class="pf-card pf-cert-card"><div class="pf-cert-icon"><i class="ti ti-certificate" aria-hidden="true"></i></div><div><div class="pf-cert-title" data-i18n="c6_title">Essentials of management &amp; strategic planning</div><div class="pf-cert-issuer">UC Irvine · Coursera · Apr 2025</div></div></div>
+<div class="pf-card pf-cert-card" style="grid-column:1/-1"><div class="pf-cert-icon"><i class="ti ti-certificate" aria-hidden="true"></i></div><div><div class="pf-cert-title" data-i18n="c7_title">Create a resume and cover letter with Google Docs</div><div class="pf-cert-issuer">Coursera · Mar 2024</div></div></div>
+</div>
+</section>
+
+<section class="pf-section" id="pf-trophies">
+<div class="pf-section-head">
+<p class="pf-eyebrow pf-grad-text" data-i18n="trophies_eyebrow">Achievements</p>
+<h2 class="pf-h2" data-i18n="trophies_heading">My trophies</h2>
+</div>
+<div class="pf-grid pf-grid-2">
+<div class="pf-card pf-trophy-card"><div class="pf-trophy-top"><div class="pf-trophy-icon"><i class="ti ti-trophy" aria-hidden="true"></i></div><div class="pf-trophy-title" data-i18n="t1_title">PwC Empowerthon — 3rd place</div></div><div class="pf-trophy-desc" data-i18n="t1_desc">Smart Tourism track — co-developed an AI-powered F1 race-strategy and telemetry simulation platform, Feb 2026.</div><a class="pf-link-sm" href="#" target="_blank" rel="noopener noreferrer"><i class="ti ti-certificate" aria-hidden="true"></i><span data-i18n="view_cert">View certificate</span></a></div>
+<div class="pf-card pf-trophy-card"><div class="pf-trophy-top"><div class="pf-trophy-icon"><i class="ti ti-shield-lock" aria-hidden="true"></i></div><div class="pf-trophy-title" data-i18n="t2_title">PSU Capture The Flag 1.0 — 2nd place</div></div><div class="pf-trophy-desc" data-i18n="t2_desc">Secured 2nd place in PSU's inaugural cybersecurity CTF, hosted by CCIS with the CyberTech Club and ACM, Nov 2025.</div><a class="pf-link-sm" href="#" target="_blank" rel="noopener noreferrer"><i class="ti ti-certificate" aria-hidden="true"></i><span data-i18n="view_cert">View certificate</span></a></div>
+<div class="pf-card pf-trophy-card"><div class="pf-trophy-top"><div class="pf-trophy-icon"><i class="ti ti-award" aria-hidden="true"></i></div><div class="pf-trophy-title" data-i18n="t3_title">Dean's list — 4 consecutive semesters</div></div><div class="pf-trophy-desc" data-i18n="t3_desc">Recognized on PSU's Dean's List for outstanding academic performance, discipline, and excellence.</div><a class="pf-link-sm" href="#" target="_blank" rel="noopener noreferrer"><i class="ti ti-certificate" aria-hidden="true"></i><span data-i18n="view_cert">View certificate</span></a></div>
+<div class="pf-card pf-trophy-card"><div class="pf-trophy-top"><div class="pf-trophy-icon"><i class="ti ti-users" aria-hidden="true"></i></div><div class="pf-trophy-title" data-i18n="t4_title">President, Data Science Club</div></div><div class="pf-trophy-desc" data-i18n="t4_desc">Leading PSU's Data Science Club — organized the AI in Robotics Bootcamp and grew a community of data science enthusiasts.</div><a class="pf-link-sm" href="#" target="_blank" rel="noopener noreferrer"><i class="ti ti-certificate" aria-hidden="true"></i><span data-i18n="view_cert">View certificate</span></a></div>
+<div class="pf-card pf-trophy-card"><div class="pf-trophy-top"><div class="pf-trophy-icon"><i class="ti ti-heart-handshake" aria-hidden="true"></i></div><div class="pf-trophy-title" data-i18n="t5_title">WiDS conference volunteer</div></div><div class="pf-trophy-desc" data-i18n="t5_desc">Managed registration for the 8th International Women in Data Science Conference at PSU's AIDA Lab, Apr 2025.</div><a class="pf-link-sm" href="#" target="_blank" rel="noopener noreferrer"><i class="ti ti-certificate" aria-hidden="true"></i><span data-i18n="view_cert">View certificate</span></a></div>
+</div>
+</section>
+
+<section class="pf-section" id="pf-skills">
+<div class="pf-section-head">
+<p class="pf-eyebrow pf-grad-text" data-i18n="skills_eyebrow">Skills</p>
+<h2 class="pf-h2" data-i18n="skills_heading">My skills</h2>
+</div>
+<div class="pf-grid pf-grid-2">
+
+<div class="pf-card pf-skill-group">
+<div class="pf-skill-label" data-i18n="group_technical">Technical</div>
+<div class="pf-skill-icon-grid">
+<div class="pf-skill-icon-card"><i class="ti ti-database pf-icon-accent" aria-hidden="true"></i><span data-i18n="skill_sql">SQL</span></div>
+<div class="pf-skill-icon-card"><i class="devicon-java-plain colored" aria-hidden="true"></i><span>Java</span></div>
+<div class="pf-skill-icon-card"><i class="ti ti-binary-tree pf-icon-accent" aria-hidden="true"></i><span data-i18n="skill_ds">Data Structures</span></div>
+<div class="pf-skill-icon-card"><i class="ti ti-table pf-icon-accent" aria-hidden="true"></i><span data-i18n="skill_rdb">Relational DBs</span></div>
+<div class="pf-skill-icon-card"><i class="devicon-mongodb-plain colored" aria-hidden="true"></i><span>MongoDB</span></div>
+<div class="pf-skill-icon-card"><i class="devicon-c-plain colored" aria-hidden="true"></i><span>C</span></div>
+<div class="pf-skill-icon-card"><i class="devicon-linux-plain colored" aria-hidden="true"></i><span>Linux</span></div>
+<div class="pf-skill-icon-card"><i class="devicon-figma-plain colored" aria-hidden="true"></i><span>Figma</span></div>
+</div>
+</div>
+
+<div class="pf-card pf-skill-group">
+<div class="pf-skill-label" data-i18n="group_ai">AI &amp; data</div>
+<div class="pf-skill-icon-grid">
+<div class="pf-skill-icon-card"><i class="ti ti-brain pf-icon-accent" aria-hidden="true"></i><span data-i18n="skill_llm">LLMs</span></div>
+<div class="pf-skill-icon-card"><i class="ti ti-search pf-icon-accent" aria-hidden="true"></i><span data-i18n="skill_rag">RAG</span></div>
+<div class="pf-skill-icon-card"><i class="ti ti-target-arrow pf-icon-accent" aria-hidden="true"></i><span data-i18n="skill_aips">AI Product Strategy</span></div>
+<div class="pf-skill-icon-card"><i class="ti ti-chart-line pf-icon-accent" aria-hidden="true"></i><span data-i18n="skill_pa">Predictive Analytics</span></div>
+<div class="pf-skill-icon-card"><i class="ti ti-chart-bar pf-icon-accent" aria-hidden="true"></i><span data-i18n="skill_da">Data Analytics</span></div>
+</div>
+</div>
+
+<div class="pf-card pf-skill-group">
+<div class="pf-skill-label" data-i18n="group_soft">Soft skills</div>
+<div class="pf-skill-icon-grid">
+<div class="pf-skill-icon-card"><i class="ti ti-bulb pf-icon-accent" aria-hidden="true"></i><span data-i18n="skill_ct">Critical Thinking</span></div>
+<div class="pf-skill-icon-card"><i class="ti ti-puzzle pf-icon-accent" aria-hidden="true"></i><span data-i18n="skill_ps">Problem Solving</span></div>
+<div class="pf-skill-icon-card"><i class="ti ti-list-check pf-icon-accent" aria-hidden="true"></i><span data-i18n="skill_org">Organisation</span></div>
+<div class="pf-skill-icon-card"><i class="ti ti-users-group pf-icon-accent" aria-hidden="true"></i><span data-i18n="skill_cf">Cross-functional</span></div>
+<div class="pf-skill-icon-card"><i class="ti ti-refresh pf-icon-accent" aria-hidden="true"></i><span data-i18n="skill_agile">Agile</span></div>
+</div>
+</div>
+
+<div class="pf-card pf-skill-group">
+<div class="pf-skill-label" data-i18n="group_lang">Languages</div>
+<div class="pf-skill-icon-grid">
+<div class="pf-skill-icon-card"><i class="ti ti-language pf-icon-accent" aria-hidden="true"></i><span data-i18n="skill_ar">Arabic — Native</span></div>
+<div class="pf-skill-icon-card"><i class="ti ti-language pf-icon-accent" aria-hidden="true"></i><span data-i18n="skill_en">English — Fluent</span></div>
+</div>
+</div>
+
+</div>
+</section>
+
+<section class="pf-section" id="pf-contact" style="border-bottom:none;padding-bottom:24px">
+<div class="pf-card pf-contact-card" style="max-width:520px;margin:0 auto">
+<p class="pf-eyebrow pf-grad-text" style="text-align:center" data-i18n="contact_eyebrow">Contact</p>
+<h2 class="pf-h2" style="margin-bottom:10px" data-i18n="contact_heading">Let's get in touch</h2>
+<p style="font-size:14px;color:var(--text-2);margin-bottom:6px">+966-546-758-609</p>
+<p style="font-size:13px;color:var(--text-3);margin-bottom:0" data-i18n="contact_location">Riyadh, Saudi Arabia</p>
+<div class="pf-contact-row">
+<a class="pf-btn pf-btn-grad" href="https://www.linkedin.com/in/layan-bindayel/" target="_blank" rel="noopener noreferrer"><i class="ti ti-brand-linkedin" aria-hidden="true"></i> <span data-i18n="hero_cta">Message on LinkedIn</span></a>
+<a class="pf-btn pf-btn-ghost" href="tel:+966546758609"><i class="ti ti-phone" aria-hidden="true"></i> <span data-i18n="contact_call">Call</span></a>
+</div>
+</div>
+</section>
+
+<footer class="pf-footer">
+<div style="font-family:var(--font-head);font-weight:600;font-size:15px">Layan Bin Dayel</div>
+<div style="font-size:12px;color:var(--text-3);margin-top:4px" data-i18n="footer_tagline">AI Product Management Associate · Data Science Student · President, PSU Data Science Club</div>
+<div class="pf-footer-links">
+<button data-i18n="nav_about" onclick="pfScroll('pf-about')">About</button>
+<button data-i18n="nav_resume" onclick="pfScroll('pf-resume')">Resume</button>
+<button data-i18n="nav_projects" onclick="pfScroll('pf-projects')">Projects</button>
+<button data-i18n="nav_courses" onclick="pfScroll('pf-courses')">Courses</button>
+<button data-i18n="nav_trophies" onclick="pfScroll('pf-trophies')">Trophies</button>
+<button data-i18n="nav_skills" onclick="pfScroll('pf-skills')">Skills</button>
+<button data-i18n="nav_contact" onclick="pfScroll('pf-contact')">Contact</button>
+</div>
+<div class="pf-copyright" id="pfCopyright"></div>
+</footer>
+</div>
+
+<script>
+(function(){
+var root=document.getElementById('pfRoot');
+var currentLang='en';
+
+document.getElementById('pfCopyright').textContent='© '+new Date().getFullYear()+' Layan Bin Dayel. All rights reserved.';
+
+var AR={
+nav_about:"عني",nav_resume:"السيرة الذاتية",nav_projects:"المشاريع",nav_courses:"الدورات",nav_trophies:"الجوائز",nav_skills:"المهارات",nav_contact:"تواصل",
+hero_name:"ليان بن دايل",hero_title:"مديرة منتجات ذكاء اصطناعي وعالمة بيانات",hero_sub:"طالبة نظم معلومات حاسوبية متخصصة في الذكاء الاصطناعي وعلم البيانات بجامعة الأمير سلطان — أبني منتجات مدعومة بالذكاء الاصطناعي، وأقود مجتمع علوم بيانات، وأحوّل المقررات إلى أنظمة حقيقية.",hero_cta:"راسليني عبر لينكدإن",
+about_eyebrow:"نبذة عني",about_heading:"ليان هشام بن دايل",
+about_p1:"أنا <b>ليان هشام بن دايل</b>، طالبة <b>نظم معلومات حاسوبية</b> في مسار <b>الذكاء الاصطناعي وعلم البيانات</b> بـ<b>جامعة الأمير سلطان</b>، أحافظ حاليًا على معدل تراكمي <b>3.82 من 4.00</b> (3.90 من 4.00 في التخصص) وأمامي ثلاثة فصول دراسية قبل تخرجي المتوقع في يوليو 2028 — بما في ذلك إدراجي على <b>قائمة العميد</b> لأربعة فصول متتالية حتى الآن.",
+about_p2:"بصفتي <b>مسؤولة إدارة منتجات الذكاء الاصطناعي</b> في <b>HKB Tech</b>، أتعاون مع فرق متعددة التخصصات لبناء منتجات مدعومة بالذكاء الاصطناعي في الصحة والتعليم والتقنيات الناشئة — من أبحاث السوق والمستخدمين إلى تحديد المتطلبات وتخطيط خارطة الطريق الرشيقة.",
+about_p3:"بصفتي <b>رئيسة نادي علوم البيانات</b> بالجامعة، أقود <b>معسكر الذكاء الاصطناعي في الروبوتات</b> وأُنمّي مجتمعًا من المهتمين بعلوم البيانات عبر ورش العمل والفعاليات.",
+about_p4:"من خلال برامج مثل <b>بناء نماذج اللغة الكبيرة من الصفر</b> (سدايا) و<b>بناء روبوتات محادثة من الصفر</b> (RAG)، ومشاريع أكاديمية في جافا وSQL وتصميم الأنظمة، بنيت أساسًا في <b>نماذج اللغة الكبيرة</b> و<b>التوليد المعزز بالاسترجاع</b> و<b>التحليلات التنبؤية</b> و<b>استراتيجية منتجات الذكاء الاصطناعي</b>.",
+resume_eyebrow:"السيرة الذاتية",resume_heading:"السيرة الذاتية",resume_sub:"عرض أو تحميل أحدث نسخة من سيرتي الذاتية.",resume_view:"عرض السيرة الذاتية",resume_download:"تحميل السيرة الذاتية",
+projects_eyebrow:"المشاريع",projects_heading:"مشاريع مختارة",
+proj1_badge:"المركز الثالث — PwC Empowerthon",proj1_title:"محاكي استراتيجية سباق واستشعار فورمولا 1",proj1_desc:"شاركت في تطوير منصة محاكاة لاستراتيجية سباق فورمولا 1 والاستشعار عن بُعد مدعومة بالذكاء الاصطناعي، حازت المركز الثالث في مسار السياحة الذكية.",
+proj2_badge:"معسكر تطوير منتج أولي",proj2_title:"منصة عمل حر لتمكين المرأة السعودية",proj2_desc:"طوّرت بشكل مستقل منصة عمل حر تمكّن المرأة السعودية، بتطبيق أبحاث سوق مدعومة بالذكاء الاصطناعي ومنهجية Lean Canvas وأدوات نمذجة المنتج الأولي.",
+proj3_title:"كير تايم — مساعد طبي ذكي",proj3_desc:"قدت تحليل نظام شامل بمنهجية SDLC المنظمة — من استخراج المتطلبات إلى مخططات UML، وصولًا إلى قائمة عمل رشيقة لمنصة مساعدة طبية ذكية.",
+proj4_title:"تحليل تسجيل مقررات الطلاب",proj4_desc:"صممت قائمة مترابطة مخصصة لمعالجة سجلات التسجيل، ونفذت خوارزمية لتقييم شعبية المقررات، وقارنت أربع خوارزميات فرز من حيث الأداء.",
+proj5_title:"نظام إدارة متحف",proj5_desc:"صممت مخطط قاعدة بيانات علائقية من مخطط ERD، وكتبت استعلامات SQL معقدة لجرد المقتنيات وتنسيق الإعارة بين المتاحف.",
+proj6_title:"نظام تشفير RSA",proj6_desc:"نفذت تشفير المفتاح العام RSA بلغة جافا، شاملًا الحساب النمطي وتوليد المفاتيح والتشفير وفك التشفير.",
+link_linkedin:"عرض على لينكدإن",view_cert:"عرض الشهادة",
+courses_eyebrow:"رحلة التعلم",courses_heading:"الدورات والبرامج",
+c1_title:"بناء نماذج اللغة الكبيرة من الصفر",c2_title:"مقدمة في MongoDB",c3_title:"بناء روبوتات محادثة من الصفر",c4_title:"أطلق منتجك الأولي خلال 3 أيام",c5_title:"البيانات والأمان والخصوصية",c6_title:"أساسيات الإدارة والتخطيط الاستراتيجي",c7_title:"إنشاء سيرة ذاتية وخطاب تقديم عبر Google Docs",
+trophies_eyebrow:"الإنجازات",trophies_heading:"جوائزي",
+t1_title:"PwC Empowerthon — المركز الثالث",t1_desc:"مسار السياحة الذكية — شاركت في تطوير منصة محاكاة سباق فورمولا 1 مدعومة بالذكاء الاصطناعي، فبراير 2026.",
+t2_title:"مسابقة PSU Capture The Flag الأولى — المركز الثاني",t2_desc:"حصلت على المركز الثاني في أول مسابقة أمن سيبراني بالجامعة، بتنظيم كلية علوم وهندسة الحاسب مع نادي CyberTech، نوفمبر 2025.",
+t3_title:"قائمة العميد — أربعة فصول متتالية",t3_desc:"أُدرجت على قائمة العميد بالجامعة تقديرًا للتفوق الأكاديمي والانضباط والتميز.",
+t4_title:"رئيسة نادي علوم البيانات",t4_desc:"أقود نادي علوم البيانات بالجامعة — نظمت معسكر الذكاء الاصطناعي في الروبوتات ونمّيت مجتمعًا من المهتمين بعلوم البيانات.",
+t5_title:"متطوعة في مؤتمر WiDS",t5_desc:"تولّيت إدارة التسجيل في المؤتمر الدولي الثامن للمرأة في علوم البيانات بمختبر AIDA، أبريل 2025.",
+skills_eyebrow:"المهارات",skills_heading:"مهاراتي",group_technical:"تقنية",group_ai:"الذكاء الاصطناعي والبيانات",group_soft:"المهارات الشخصية",group_lang:"اللغات",
+skill_sql:"SQL",skill_ds:"هياكل البيانات",skill_rdb:"قواعد بيانات علائقية",skill_llm:"نماذج اللغة الكبيرة",skill_rag:"RAG",skill_aips:"استراتيجية منتجات الذكاء الاصطناعي",skill_pa:"التحليلات التنبؤية",skill_da:"تحليل البيانات",skill_ct:"التفكير النقدي",skill_ps:"حل المشكلات",skill_org:"التنظيم",skill_cf:"تعاون بين الفرق",skill_agile:"أجايل",skill_ar:"العربية — لغة أم",skill_en:"الإنجليزية — بطلاقة",
+contact_eyebrow:"التواصل",contact_heading:"لنتواصل",contact_location:"الرياض، المملكة العربية السعودية",contact_call:"اتصال",
+footer_tagline:"مسؤولة إدارة منتجات الذكاء الاصطناعي · طالبة علوم بيانات · رئيسة نادي علوم البيانات بجامعة الأمير سلطان"
+};
+var EN={};
+document.querySelectorAll('[data-i18n]').forEach(function(el){EN[el.getAttribute('data-i18n')]=el.textContent;});
+document.querySelectorAll('[data-i18n-html]').forEach(function(el){EN[el.getAttribute('data-i18n-html')]=el.innerHTML;});
+
+window.pfToggleLang=function(){
+currentLang = currentLang==='en' ? 'ar' : 'en';
+var dict = currentLang==='ar' ? AR : EN;
+document.querySelectorAll('[data-i18n]').forEach(function(el){
+var k=el.getAttribute('data-i18n');
+if(dict[k]!==undefined) el.textContent=dict[k];
+});
+document.querySelectorAll('[data-i18n-html]').forEach(function(el){
+var k=el.getAttribute('data-i18n-html');
+if(dict[k]!==undefined) el.innerHTML=dict[k];
+});
+root.setAttribute('dir', currentLang==='ar' ? 'rtl' : 'ltr');
+document.getElementById('pfLangBtn').textContent = currentLang==='ar' ? 'EN' : 'ع';
+};
+
+window.pfScroll=function(id){
+var el=document.getElementById(id);
+if(el) el.scrollIntoView({behavior:'smooth',block:'start'});
+document.getElementById('pfMenuPanel').classList.remove('open');
+};
+
+window.pfToggleMenu=function(){
+document.getElementById('pfMenuPanel').classList.toggle('open');
+};
+
+window.pfToggleTheme=function(){
+var isDark=root.getAttribute('data-theme')==='dark';
+root.setAttribute('data-theme', isDark?'light':'dark');
+document.getElementById('pfThemeIcon').className='ti '+(isDark?'ti-sun':'ti-moon');
+refreshNetColors();
+};
+
+var canvas=document.getElementById('pfCanvas');
+var ctx=canvas.getContext('2d');
+var layers=[4,6,6,4];
+var nodes=[];
+var edges=[];
+var pulses=[];
+var nodeColor='#79c6d2', edgeColor='54,125,138', pulseColor='#a8e6ef';
+
+function refreshNetColors(){
+var isLight=root.getAttribute('data-theme')==='light';
+nodeColor=isLight?'#285F6B':'#79c6d2';
+edgeColor=isLight?'40,95,107':'54,125,138';
+pulseColor=isLight?'#0d2426':'#c8f3f9';
+}
+refreshNetColors();
+
+function layoutNetwork(){
+nodes=[];
+var marginX=canvas.width*0.1, marginY=canvas.height*0.18;
+layers.forEach(function(count,li){
+var x=marginX+(canvas.width-2*marginX)*(li/(layers.length-1));
+var arr=[];
+for(var n=0;n<count;n++){
+var y = count===1 ? canvas.height/2 : marginY+(canvas.height-2*marginY)*(n/(count-1));
+arr.push({x:x,y:y,activation:0});
+}
+nodes.push(arr);
+});
+edges=[];
+for(var li=0; li<layers.length-1; li++){
+nodes[li].forEach(function(a){
+nodes[li+1].forEach(function(b){
+edges.push({a:a,b:b});
+});
+});
+}
+}
+
+function sizeCanvas(){
+var rect=canvas.parentElement.getBoundingClientRect();
+canvas.width=rect.width;
+canvas.height=rect.height;
+layoutNetwork();
+}
+sizeCanvas();
+window.addEventListener('resize', sizeCanvas);
+
+function spawnPulse(li, nodeIndex){
+if(li>=layers.length-1) return;
+var fromNode=nodes[li][nodeIndex];
+var targets=nodes[li+1];
+var targetIdx=Math.floor(Math.random()*targets.length);
+var target=targets[targetIdx];
+pulses.push({x1:fromNode.x,y1:fromNode.y,x2:target.x,y2:target.y,t:0,targetLayer:li+1,targetIdx:targetIdx});
+}
+
+function tick(){
+ctx.clearRect(0,0,canvas.width,canvas.height);
+
+ctx.lineWidth=1;
+edges.forEach(function(e){
+ctx.beginPath();
+ctx.moveTo(e.a.x,e.a.y);
+ctx.lineTo(e.b.x,e.b.y);
+ctx.strokeStyle='rgba('+edgeColor+',0.18)';
+ctx.stroke();
+});
+
+if(Math.random()<0.08){
+var ni=Math.floor(Math.random()*layers[0]);
+spawnPulse(0,ni);
+}
+
+for(var i=pulses.length-1;i>=0;i--){
+var p=pulses[i];
+p.t+=0.025;
+var x=p.x1+(p.x2-p.x1)*p.t;
+var y=p.y1+(p.y2-p.y1)*p.t;
+ctx.beginPath();
+ctx.arc(x,y,2.6,0,Math.PI*2);
+ctx.fillStyle=pulseColor;
+ctx.shadowBlur=8;
+ctx.shadowColor=pulseColor;
+ctx.fill();
+ctx.shadowBlur=0;
+if(p.t>=1){
+nodes[p.targetLayer][p.targetIdx].activation=1;
+if(Math.random()<0.75 && p.targetLayer<layers.length-1){
+spawnPulse(p.targetLayer,p.targetIdx);
+}
+pulses.splice(i,1);
+}
+}
+
+nodes.forEach(function(layer){
+layer.forEach(function(n){
+n.activation*=0.94;
+var r=3+n.activation*4;
+ctx.beginPath();
+ctx.arc(n.x,n.y,r,0,Math.PI*2);
+ctx.fillStyle=nodeColor;
+ctx.globalAlpha=0.55+n.activation*0.45;
+if(n.activation>0.15){ctx.shadowBlur=10;ctx.shadowColor=nodeColor;}
+ctx.fill();
+ctx.shadowBlur=0;
+ctx.globalAlpha=1;
+});
+});
+
+requestAnimationFrame(tick);
+}
+tick();
+})();
+</script>
+</body>
+</html>
