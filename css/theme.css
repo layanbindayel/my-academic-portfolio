@@ -1,0 +1,131 @@
+/* Navigation */
+.pf-nav {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 20px;
+  background: rgba(1, 0, 1, 0.6);
+  backdrop-filter: blur(14px);
+  border-bottom: 1px solid var(--card-border);
+}
+
+.pf-root[data-theme="light"] .pf-nav {
+  background: rgba(255, 255, 255, 0.7);
+}
+
+.pf-logo {
+  font-family: var(--font-head);
+  font-weight: 600;
+  font-size: 17px;
+  background: none;
+  border: none;
+  color: var(--text);
+  cursor: pointer;
+  padding: 0;
+}
+
+.pf-nav-right {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+/* Icon Button */
+.pf-icon-btn {
+  width: 36px;
+  height: 36px;
+  border-radius: 10px;
+  border: 1px solid var(--card-border);
+  background: var(--card);
+  color: var(--text);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.pf-icon-btn:hover {
+  border-color: var(--a1);
+  background: var(--a1);
+}
+
+.pf-lang-btn {
+  font-size: 12px;
+  font-weight: 700;
+}
+
+/* Menu Panel */
+.pf-menu-panel {
+  display: none;
+  flex-direction: column;
+  gap: 4px;
+  padding: 12px 20px 18px;
+  background: var(--bg-soft);
+  border-bottom: 1px solid var(--card-border);
+}
+
+.pf-menu-panel.open {
+  display: flex;
+}
+
+.pf-menu-link {
+  background: none;
+  border: none;
+  text-align: left;
+  padding: 10px 4px;
+  font-size: 14px;
+  color: var(--text-2);
+  cursor: pointer;
+  border-radius: 8px;
+  transition: all 0.2s ease;
+}
+
+.pf-root[dir="rtl"] .pf-menu-link {
+  text-align: right;
+}
+
+.pf-menu-link:hover {
+  color: var(--text);
+  background: var(--card);
+}
+
+/* Buttons */
+.pf-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 11px 20px;
+  border-radius: 12px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  text-decoration: none;
+  border: 1px solid var(--card-border);
+  white-space: nowrap;
+  transition: all 0.2s ease;
+}
+
+.pf-btn-ghost {
+  background: var(--card);
+  color: var(--text);
+}
+
+.pf-btn-ghost:hover {
+  background: var(--a1);
+  border-color: var(--a1);
+  color: #fff;
+}
+
+.pf-btn-grad {
+  background: linear-gradient(90deg, var(--a1), var(--a2), var(--a3));
+  color: #fff;
+  border: none;
+}
+
+.pf-btn-grad:hover {
+  opacity: 0.9;
+}

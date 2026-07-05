@@ -1,0 +1,47 @@
+/* Responsive Design */
+
+/* Tablets and larger screens */
+@media (min-width: 720px) {
+  .pf-nav-links-desktop {
+    display: flex !important;
+  }
+
+  .pf-hero-title {
+    font-size: 48px;
+  }
+}
+
+/* Small screens */
+@media (max-width: 480px) {
+  .pf-section {
+    padding: 48px 16px;
+  }
+
+  .pf-h2 {
+    font-size: 24px;
+  }
+
+  .pf-hero-title {
+    font-size: 28px;
+  }
+
+  .pf-skill-icon-grid {
+    grid-template-columns: repeat(auto-fill, minmax(72px, 1fr));
+  }
+
+  .pf-contact-row {
+    flex-direction: column;
+  }
+
+  .pf-btn {
+    width: 100%;
+    justify-content: center;
+  }
+}
+
+/* Large screens */
+@media (min-width: 1200px) {
+  .pf-section {
+    max-width: 1200px;
+  }
+}
